@@ -1,0 +1,15 @@
+{
+    "categories": {
+        "0": "email",
+        "1": "customer support",
+        "2": "technical"
+    },
+    "data_tracked": false,
+    "demo_page": "https://wecodeless.site/plugins/SendMail-SMTP",
+    "description": "The SendMail plugin allows you to send emails using an SMTP server directly within Bubble.io. Simply input the SMTP authentication details (host, port, user, and password) in the plugin settings, fill in the fields for sender, recipient, subject, body, and attachments (if needed), and your email will be sent. It’s perfect for users who need customized email integration in their Bubble applications.",
+    "image": "//meta-q.cdn.bubble.io/f1729466129622x100769554220530460/2.png",
+    "license": "open_source",
+    "name": "SendMail SMTP",
+    "plugin_instructions": "1. Set Up SMTP Credentials:\n   - In the plugin settings, add the SMTP host, port, user, and password for your email service.\n   - Example: Gmail (Host: smtp.gmail.com, Port: 587, User: youremail@gmail.com, Pass: your_password).\n\n2. Fill Out the Email Fields:\n   - From: Enter the sender's email address.\n   - To: Enter the recipient's email address(es), using commas for multiple addresses.\n   - Subject: Define the subject of the email.\n   - Body: Enter the content of the email, either as plain text or HTML.\n   - Attachments: Add files, if needed, as a list of attachments.\n\n3. Send the Email:\n   - Use the Bubble workflow to trigger the email sending action using the plugin.\n   - The email will be sent using the provided settings.",
+    "sa_node_version": 18
+}

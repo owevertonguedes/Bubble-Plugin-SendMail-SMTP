@@ -1,0 +1,24 @@
+{
+    "dependencies": {
+        "plugin_api_version": 4,
+        "use_jquery": true
+    },
+    "shared_keys": {
+        "AAR": {
+            "caption": "Host",
+            "type": "secure"
+        },
+        "AAS": {
+            "caption": "Port",
+            "type": "secure"
+        },
+        "AAT": {
+            "caption": "User",
+            "type": "secure"
+        },
+        "AAU": {
+            "caption": "Pass",
+            "type": "secure"
+        }
+    }
+}

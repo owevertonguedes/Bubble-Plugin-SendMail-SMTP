@@ -1,0 +1,47 @@
+{
+    "category": "plugins",
+    "display": "Send email with SMTP keys",
+    "fields": {
+        "AAM": {
+            "caption": "To",
+            "doc": "The recipient's email address(es), separated by commas.",
+            "editor": "DynamicValue",
+            "name": "to",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAN": {
+            "caption": "Subject",
+            "doc": "The subject of the email.",
+            "editor": "DynamicValue",
+            "name": "subject",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAO": {
+            "caption": "Body",
+            "doc": "The content of the email, can be plain text or HTML.",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "body",
+            "rank": 2,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAr": {
+            "caption": "status",
+            "name": "status",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAs": {
+            "caption": "data",
+            "name": "data",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

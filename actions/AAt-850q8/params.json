@@ -1,0 +1,79 @@
+{
+    "category": "plugins",
+    "display": "Send email with SMTP entries",
+    "fields": {
+        "AAu": {
+            "caption": "To",
+            "doc": "The recipient's email address(es), separated by commas.",
+            "editor": "DynamicValue",
+            "name": "to",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAv": {
+            "caption": "Subject",
+            "doc": "The subject of the email.",
+            "editor": "DynamicValue",
+            "name": "subject",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAw": {
+            "caption": "Body",
+            "doc": "The content of the email, can be plain text or HTML.",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "body",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAx": {
+            "caption": "Host",
+            "doc": "Outgoing server (SMTP)",
+            "editor": "DynamicValue",
+            "name": "host",
+            "rank": 3,
+            "value": "text"
+        },
+        "AAy": {
+            "caption": "Port",
+            "doc": "It is usually 465",
+            "editor": "DynamicValue",
+            "name": "port",
+            "rank": 4,
+            "value": "text"
+        },
+        "AAz": {
+            "caption": "User",
+            "doc": "It's usually email",
+            "editor": "DynamicValue",
+            "name": "user",
+            "rank": 5,
+            "value": "text"
+        },
+        "ABA": {
+            "caption": "Pass",
+            "doc": "Your SMTP user password",
+            "editor": "DynamicValue",
+            "name": "pass",
+            "rank": 6,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "ABC": {
+            "caption": "status",
+            "name": "status",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABD": {
+            "caption": "data",
+            "name": "data",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}
